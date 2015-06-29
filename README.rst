@@ -11,8 +11,8 @@ Packages needed
 
 If you don't already have a working distribution, by far the easiest way to get
 everything you need for this tutorial is to download
-`Enthought Canopy<https://store.enthought.com/>`_ (the free version is enough),
-or `Anaconda<http://continuum.io/downloads>`_.
+Enthought Canopy (https://store.enthought.com/, the free version is enough),
+or Continuum's Anaconda (http://continuum.io/downloads).
 
 To be able to run the examples, demoes and exercises, you must have the
 following packages installed:
