@@ -22,9 +22,9 @@ following packages installed:
 - nose (only to test your distribution, see below)
 
 To test your installation, please execute the :py:`check_env.py`
-script using the `nosetests` executable:
+script:
 
-    $ nosetests check_env.py
+    $ python check_env.py
     ....
     ----------------------------------------------------------------------
     Ran 4 tests in 0.162 s

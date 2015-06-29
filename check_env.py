@@ -1,4 +1,4 @@
-""" Run this file with nosetests to check your python installation.
+""" Run this file to check your python installation.
 """
 from numpy.testing import assert_array_equal
 
@@ -26,4 +26,4 @@ def test_slicing():
 
 if __name__ == "__main__":
     import nose
-    nose.run()
+    nose.run(defaultTest=__name__)
