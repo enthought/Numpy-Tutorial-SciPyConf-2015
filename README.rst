@@ -21,12 +21,12 @@ following packages installed:
 - ipython 2.0+ (for running, experimenting and doing exercises)
 - nose (only to test your distribution, see below)
 
-To test your installation, please execute the :py:`test_python_install.py`
+To test your installation, please execute the :py:`check_env.py`
 script using the `nosetests` executable:
 
-    $ nosetests test_python_install.py
+    $ nosetests check_env.py
     ....
     ----------------------------------------------------------------------
-    Ran ** tests in ** s
+    Ran 4 tests in 0.162 s
 
     OK
