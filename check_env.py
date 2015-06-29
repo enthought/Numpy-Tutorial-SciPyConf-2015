@@ -2,6 +2,7 @@
 """
 from numpy.testing import assert_array_equal
 
+
 def test_import_numpy():
     import numpy
 
