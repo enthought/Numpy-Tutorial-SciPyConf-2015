@@ -2,7 +2,7 @@ pandas_tutorial
 ===============
 
 This repository contains all the material needed by students registered for the
-Numpy tutorial of `SciPy 2015<http://scipy2015.scipy.org/ehome/115969/289057/?&>`_
+Numpy tutorial of `SciPy 2015` (http://scipy2015.scipy.org/ehome/115969/289057/?&)
 on July Mon July 6th 2015.
 
 
