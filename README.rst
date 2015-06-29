@@ -1,7 +1,7 @@
 pandas_tutorial
 ===============
 
-This repository contains all the material needed by students registered to the
+This repository contains all the material needed by students registered for the
 Numpy tutorial of `SciPy 2015<http://scipy2015.scipy.org/ehome/115969/289057/?&>`_
 on July Mon July 6th 2015.
 
@@ -10,7 +10,7 @@ Packages needed
 ---------------
 
 If you don't already have a working distribution, by far the easiest way to get
-everything you need for this turtorial is to download
+everything you need for this tutorial is to download
 `Enthought Canopy<https://store.enthought.com/>`_ (the free version is enough),
 or `Anaconda<http://continuum.io/downloads>`_.
 

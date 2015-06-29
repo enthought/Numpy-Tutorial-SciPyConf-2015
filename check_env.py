@@ -21,3 +21,8 @@ def test_slicing():
     from numpy import array
     x = array([[1, 2, 3], [4, 5, 6]])
     assert_array_equal(x[:, ::2], array([[1, 3], [4, 6]]))
+
+
+if __name__ == "__main__":
+    import nose
+    nose.run()
