@@ -12,8 +12,10 @@ Content needed
 This github repository is all that is needed in terms of tutorial content. To
 install it on your machine, you will need a git client.
 
-Windows
--------
+Step1: Install a git client
+---------------------------
+* Windows
+---------
 A good git client for Windows can be downloaded at
 http://www.git-scm.com/downloads.
 When you install git, you will be asked where to make git available from and
@@ -24,8 +26,8 @@ for line ending, the option commonly chosen is
 **Checkout Windows-Style, commit unix-style line endings**.
 
 
-Mac OSX
--------
+* Mac OSX
+---------
 If you don't already have git available, a good git client for Windows can be
 downloaded at http://www.git-scm.com/downloads.
 It installs git in /usr/local/git/bin/, so to have it available from any
@@ -42,10 +44,11 @@ should be enough to type::
     $ sudo apt-get install git
 
 
-Further instructions for all platforms
----------------------------------------
+Step2: Download the material (all platforms)
+--------------------------------------------
 
-Once git is available, you will need to clone this repository. Its SSH URL is
+Once git is available, you will need to clone this repository to get all the
+content needed during the tutorial. Its SSH URL is
 git@github.com:enthought/Numpy-Tutorial-SciPyConf-2015.git. To do that, you
 should be able to start a command prompt/terminal (or the git bash prompt if
 you chose to only make git accessible from there) and type::
@@ -53,7 +56,8 @@ you chose to only make git accessible from there) and type::
     $ git clone git@github.com:enthought/Numpy-Tutorial-SciPyConf-2015.git
 
 That will create a new folder named SciPy2015_numpy_tutorial/ with all the
-content you will need.
+content you will need: a slides I will go through (slides.pdf), and a folder of
+exercises.
 
 As you get closer to the day of the tutorial, it is highly recommended to
 update this repository, as I will be improving it this week. To update it, open
