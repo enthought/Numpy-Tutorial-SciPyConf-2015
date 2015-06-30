@@ -6,11 +6,44 @@ This repository contains all the material needed by students registered for the
 Numpy tutorial of **SciPy 2015** (http://scipy2015.scipy.org/ehome/115969/289057/?&)
 on July Mon July 6th 2015.
 
+For a smooth experience, you will need to make sure that you install or update
+your python distribution and download the tutorial material **before** the day
+of the tutorial as the wifi at the ATT center can be flakey.
+
+
+Python distribution and Packages needed
+=======================================
+
+If you don't already have a working python distribution, by far the easiest way
+to get everything you need for this tutorial is to download
+Enthought Canopy (https://store.enthought.com/, the free version is enough),
+or Continuum's Anaconda (http://continuum.io/downloads).
+
+If you do, you will need to make sure that you install or update all needed
+packages. To be able to run the examples, demoes and exercises, you must have
+the following packages installed:
+- numpy 1.8+
+- matplotlib 1.4+
+- ipython 2.0+ (for running, experimenting and doing exercises)
+- nose (only to test your distribution, see below)
+
+To test your installation, please execute the :py:`check_env.py`
+script:
+
+    $ python check_env.py
+    ....
+    ----------------------------------------------------------------------
+    Ran 4 tests in 0.162 s
+
+    OK
+
 
 Content needed
 ===============
 This github repository is all that is needed in terms of tutorial content. To
-install it on your machine, you will need a git client.
+install it on your machine, you will need a git client and then to clone this
+repository. Make sure to update that clone *before* coming to the tutorial on
+Monday morning to catch any update.
 
 Step1: Install a git client
 ---------------------------
@@ -35,8 +68,8 @@ terminal, you will want to make sure that location is on your PATH environment
 variable.
 
 
-Linux
------
+* Linux
+-------
 The easiest on Linux is to install git from your distro's package manager (yum
 for redhat based distros, apt-get for Ubuntu, ...). For example on Ubuntu, it
 should be enough to type::
@@ -56,41 +89,14 @@ you chose to only make git accessible from there) and type::
     $ git clone git@github.com:enthought/Numpy-Tutorial-SciPyConf-2015.git
 
 That will create a new folder named SciPy2015_numpy_tutorial/ with all the
-content you will need: a slides I will go through (slides.pdf), and a folder of
-exercises.
+content you will need: the slides I will go through (slides.pdf), and a folder
+of exercises.
 
 As you get closer to the day of the tutorial, it is highly recommended to
 update this repository, as I will be improving it this week. To update it, open
 a command prompt, move **into** the SciPy2015_numpy_tutorial/ folder and run::
 
     $ git pull
-
-
-Packages needed
----------------
-
-If you don't already have a working distribution, by far the easiest way to get
-everything you need for this tutorial is to download
-Enthought Canopy (https://store.enthought.com/, the free version is enough),
-or Continuum's Anaconda (http://continuum.io/downloads).
-
-If you do, you will need to make sure that you install or update all needed
-packages. To be able to run the examples, demoes and exercises, you must have
-the following packages installed:
-- numpy 1.8+
-- matplotlib 1.4+
-- ipython 2.0+ (for running, experimenting and doing exercises)
-- nose (only to test your distribution, see below)
-
-To test your installation, please execute the :py:`check_env.py`
-script:
-
-    $ python check_env.py
-    ....
-    ----------------------------------------------------------------------
-    Ran 4 tests in 0.162 s
-
-    OK
 
 
 Questions? Problems?
