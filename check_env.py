@@ -11,7 +11,7 @@ def test_pandas_version():
     import numpy
     version_found = numpy.__version__.split(".")
     version_found = tuple(int(num) for num in version_found)
-    assert version_found > (0, 15)
+    assert version_found > (1, 8)
 
 
 def test_import_matplotlib():
