@@ -19,6 +19,11 @@ to get everything you need for this tutorial is to download
 Enthought Canopy (https://store.enthought.com/, the free version is enough),
 or Continuum's Anaconda (http://continuum.io/downloads).
 
+If you have a choice I recommend you grab a Python 2.7 distribution. That is
+what I will be using and my material as been tested with that. If you have a
+Python 3.3+ version, you should be fine, though in some of the solution files,
+you might have to replace a print statement by a function.
+
 If you do, you will need to make sure that you install or update all needed
 packages. To be able to run the examples, demoes and exercises, you must have
 the following packages installed:
