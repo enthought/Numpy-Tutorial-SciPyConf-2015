@@ -86,12 +86,12 @@ Step2: Download the material (all platforms)
 --------------------------------------------
 
 Once git is available, you will need to clone this repository to get all the
-content needed during the tutorial. Its SSH URL is
-git@github.com:enthought/Numpy-Tutorial-SciPyConf-2015.git. To do that, you
+content needed during the tutorial. Its HTTPS URL is
+https://github.com/enthought/Numpy-Tutorial-SciPyConf-2015.git. To do that, you
 should be able to start a command prompt/terminal (or the git bash prompt if
 you chose to only make git accessible from there) and type::
 
-    $ git clone git@github.com:enthought/Numpy-Tutorial-SciPyConf-2015.git
+    $ git clone https://github.com/enthought/Numpy-Tutorial-SciPyConf-2015.git
 
 That will create a new folder named SciPy2015_numpy_tutorial/ with all the
 content you will need: the slides I will go through (slides.pdf), and a folder
